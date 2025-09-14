@@ -1,13 +1,15 @@
 import bannerVideo from "../assets/videos/banner.mp4";
 
-export const Banner = () => {
+export const Banner = (props) => {
     return (
         <div className="w-full h-screen relative">
-            <div className="h-full mx-auto flex justify-center items-center flex-col bg-linear-to-b from-black/30 to-black">
-                <h1 className="text-7xl font-extrabold tracking-wide text-white leading-40">တစ်ဂိုးမှ <span className="text-emerald-500">မလွတ်စေနဲ့</span></h1>
-                <p className="max-w-2xl text-lg text-center md:text-xl text-gray-100">
-                    နောက်ကျတဲ့ Score တွေ၊ အရည်အသွေးမကောင်းတဲ့လင့်ခ်တွေကို မေ့လိုက်ပါ။
-                    HD Quality နဲ့ အားလုံးထက်မြန်တဲ့ Streaming ကို သင့်လက်ဖဝါးပေါ်မှာ အခုပဲ ရယူလိုက်ပါ။
+            <div className="h-full mx-auto p-3 flex justify-center items-center flex-col bg-linear-to-b from-black/30 to-black">
+                <h1
+                    className="text-4xl md:text-6xl lg:text-7xl text-center font-extrabold tracking-wide text-white leading-10 md:leading-20 lg:leading-30"
+                >Live the Thrill of <span className="text-green-500">Football</span>
+                </h1>
+                <p className="wrap-break-word lg:max-w-3/4 xl:max-w-1/2 text-lg text-center md:text-xl text-gray-100">
+                    Catch every goal, every tackle, every moment. Stay updated with live scores, match schedules, and real-time stats from leagues around the world.
                 </p>
                 <button className="mt-4 py-3 px-8 bg-green-400 rounded-4xl text-lg text-bold cursor-pointer">App ကို ရယူပါ</button>
             </div>
