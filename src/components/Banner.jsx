@@ -12,7 +12,7 @@ const Banner = (props) => {
                     Catch every goal, every tackle, every moment. Stay updated with live scores, match schedules, and real-time stats from leagues around the world.
                 </p>
                 <button
-                    className="mt-6 py-3 px-4 bg-cyan-500 shadow-lg shadow-cyan-500/50 ring-0 rounded-4xl text-lg font-bold flex gap-3 cursor-pointer">
+                    className="mt-6 py-3 px-4 bg-green-500 shadow-lg shadow-green-500/50 ring-0 rounded-4xl text-lg font-bold flex gap-3 cursor-pointer">
                     <DownloadIcon />
                     <span>Install Our App Now</span>
                 </button>
