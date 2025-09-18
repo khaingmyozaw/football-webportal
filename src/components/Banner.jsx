@@ -11,7 +11,10 @@ export const Banner = (props) => {
                 <p className="wrap-break-word lg:max-w-3/4 xl:max-w-1/2 text-lg text-center md:text-xl text-gray-100">
                     Catch every goal, every tackle, every moment. Stay updated with live scores, match schedules, and real-time stats from leagues around the world.
                 </p>
-                <button className="mt-4 py-3 px-8 bg-green-400 rounded-4xl text-lg text-bold cursor-pointer">App ကို ရယူပါ</button>
+                <button 
+                    className="mt-6 py-3 px-8 border border-green-500 text-green-500 rounded-4xl text-lg font-bold cursor-pointer">
+                        Install Our App Now
+                </button>
             </div>
             <video
                 autoPlay
