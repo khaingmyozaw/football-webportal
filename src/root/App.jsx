@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Download from "../components/Download";
 import Features from "../components/Features";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <div className="w-full bg-black text-white">
       <Banner />
       <Features />
+      <Download />
     </div>
   )
 }
