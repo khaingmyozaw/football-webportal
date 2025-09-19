@@ -1,17 +1,17 @@
 import { WobbleCardLayout } from "./buttons/WobbleCardLayout"
+import Container from "./layouts/Container"
+import Title from "./ui/title"
 
 const Features = () => {
     return (
-        <div className="container mx-auto p-4">
-            <h2 className="mb-6 text-3xl md:text-4xl lg:text-5xl font-bold text-center">
-                Key Features
-            </h2>
+        <Container>
+            <Title content="Key Features" />
             <p className="text-center mb-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi sed molestiae alias magni placeat officia accusamus ratione autem amet nihil.
+                The best features only available on mmsports
             </p>
 
             <WobbleCardLayout />
-        </div>
+        </Container>
     )
 }
 

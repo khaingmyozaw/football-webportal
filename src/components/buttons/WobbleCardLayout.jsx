@@ -11,7 +11,7 @@ export function WobbleCardLayout() {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
             <WobbleCard
-                containerClassName="col-span-1 lg:col-span-2 h-full bg-gray-900/30 border border-gray-100/10 min-h-[500px] lg:min-h-[300px]"
+                containerClassName="col-span-1 lg:col-span-2 h-full bg-gray-800/30 border border-gray-100/20 min-h-[500px] lg:min-h-[300px]"
                 className=""
             >
                 <div className="max-w-xs">
@@ -45,7 +45,7 @@ export function WobbleCardLayout() {
                     Notifications set to alert individuals about scheduled events on a specific day
                 </p>
             </WobbleCard>
-            <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-gray-900/30 border border-gray-100/10 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+            <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-gray-800/30 border border-gray-100/20 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
                 <div className="max-w-lg">
                     <span className="p-4 -mt-6 mb-2 inline-flex items-center justify-center bg-white/10 rounded-4xl">
                         <Video />
