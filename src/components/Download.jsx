@@ -1,12 +1,15 @@
 import DownloadBtn from "./buttons/DownloadBtn";
+import Container from "./layouts/Container";
 import Title from "./ui/title";
 
 const Download = () => {
     return (
-        <section className="container mx-auto px-4 py-12">
-            <Title content="Stay up to date with the MMSports" className="mb-12" />
+        <Container>
+            <Title content="Stay up to date with" className="mb-12">
+                <span className="text-red-500">MMSports</span>
+            </Title>
             <DownloadBtn className="mx-auto" />
-        </section>
+        </Container>
     )
 }
 

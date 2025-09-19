@@ -1,6 +1,7 @@
 import Banner from "../components/Banner";
 import Download from "../components/Download";
 import Features from "../components/Features";
+import Footer from "../components/Footer";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Banner />
       <Features />
       <Download />
+      <Footer />
     </div>
   )
 }
